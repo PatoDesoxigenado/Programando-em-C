@@ -21,9 +21,10 @@ int main() {
         scanf("%d", &opc);
         
         if (opc == 1){
+            continue;
         }else {
             printf("%d grenais\n", Grenai);
-            printf("Inter: %d\n", GrenaiInter);
+            printf("Inter: %d\n",   GrenaiInter);
             printf("Gremio: %d\n", GrenaiGremio);
             printf("Empates: %d\n", Empates);
     
