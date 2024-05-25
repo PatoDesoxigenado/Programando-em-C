@@ -14,7 +14,7 @@ int main () {
 
     for (int i = 0; i < 100; i++) {
 
-        if ((nome[i] != 32) && (nome[i] != 10)) { //32 e 10 são, respectivamente, espaço (' ') e \0 na tabela ASCII
+        if (nome[i] != 32 && nome[i] != 10) { //32 e 10 são, respectivamente, espaço (' ') e \0 na tabela ASCII
             nome2[aux] = nome[i];
             aux++;
             cont++;
