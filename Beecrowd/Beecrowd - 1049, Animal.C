@@ -2,21 +2,54 @@
 #include <string.h>
 
 int main() {
- char vert[11], vert2[11] = "Vertebrado", tipo[10], tipo2[10] = "Mamifero", come[12];
- int x;
+ char vert[15], tipo[15], come[15];
 
- printf("Digite qual subfilio o animal que voce procura se encaixa: \n\nVertebrado\nou\nInvertebrado\n");
- fgets(vert, 11, stdin);
+ gets(vert);
 
-x = strcmp(vert, vert2);
+ if (strcmp(vert, "vertebrado") == 0) {
+    gets(tipo);
 
- if (x == 0) {
-    printf("É mamifero ou ave? ");
-    fgets(tipo, 10, stdin);
+    if (strcmp(tipo, "ave") == 0) {
+      gets(come);
+
+      if (strcmp(come, "carnivoro") == 0) {
+         printf("aguia\n");
+      }else if (strcmp(come, "onivoro") == 0) {
+         printf("pomba\n");
+      }
+   }else if (strcmp(tipo, "mamifero") == 0) {
+      gets(come);
+    
+      if (strcmp(come, "onivoro") == 0) {
+         printf("homem\n");
+      }else if (strcmp(come, "herbivoro") == 0) {
+         printf("vaca\n");
+      }
+    }
+
+ }else if (strcmp(vert, "invertebrado") == 0) {
+   gets(tipo);
+
+  if (strcmp(tipo, "inseto") == 0) {
+   gets(come);
+
+   if (strcmp(come, "hematofago") == 0) {
+      printf("pulga\n");
+   }else if (strcmp(come, "herbivoro") == 0) {
+      printf("lagarta\n");
+   }
+  }else if (strcmp(tipo, "anelideo") == 0) {
+   gets(come);
+
+   if (strcmp(come, "hematofago") == 0) {
+      printf("sanguessuga\n");
+   }else if (strcmp(come, "onivoro") == 0) {
+      printf("minhoca\n");
+   }
+  }
+  
  }
 
- if (strcmp(tipo, tipo2) == 0) {
-    printf("Pato");
- }
+
     return 0;
 }
