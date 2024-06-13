@@ -19,13 +19,15 @@ int main() {
         }
     }
 
-    printf("Soma: %d (", soma);
+    printf("Soma: %d", soma);
 
     for (int i = 0; i < n; i++) {
         if (i == n - 1) {
-            printf(" %d )", v[i]);
+            printf(" %d)", v[i]);
+        }else if (i == 0) {
+            printf(" (%d + ", v[i]);
         }else {
-            printf(" %d +", v[i]);
+            printf("%d +", v[i]);
         }
     }
 
