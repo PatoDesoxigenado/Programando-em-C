@@ -68,6 +68,9 @@
         "Q1.C": "cpp",
         "Q3.C": "cpp",
         "Q4.C": "cpp",
-        "Q5.C": "cpp"
+        "Q5.C": "cpp",
+        "Sim.C": "cpp",
+        "DesafioStruct.C": "cpp",
+        "TreinoStruct.C": "cpp"
     }
 }
