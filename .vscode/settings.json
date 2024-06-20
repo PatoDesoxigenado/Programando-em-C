@@ -72,6 +72,8 @@
         "Sim.C": "cpp",
         "DesafioStruct.C": "cpp",
         "TreinoStruct.C": "cpp",
-        "Troca de Letra.C": "cpp"
+        "Troca de Letra.C": "cpp",
+        "Crescente.C": "cpp",
+        "Fibonnaci.C": "cpp"
     }
 }
