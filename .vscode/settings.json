@@ -74,6 +74,7 @@
         "TreinoStruct.C": "cpp",
         "Troca de Letra.C": "cpp",
         "Crescente.C": "cpp",
-        "Fibonnaci.C": "cpp"
+        "Fibonnaci.C": "cpp",
+        "Juego.C": "cpp"
     }
 }
