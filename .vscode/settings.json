@@ -76,6 +76,8 @@
         "Crescente.C": "cpp",
         "Fibonnaci.C": "cpp",
         "Juego.C": "cpp",
-        "Random.C": "cpp"
+        "Random.C": "cpp",
+        "QuestaoRevisao.C": "cpp",
+        "string": "cpp"
     }
 }
